@@ -6,7 +6,6 @@ import ProductItem from './ProductItem';
 import Header from '../layouts/Header';
 
 const ListProducts = ({ data }) => {
-  console.log(data);
   return (
     <>
       <Header />

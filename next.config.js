@@ -7,6 +7,9 @@ const nextConfig = {
     API_URL: 'http://localhost:3000',
     DB_URI: 'mongodb+srv://admin:admin@cluster0.f2odcvj.mongodb.net/buyitnow',
   },
+  images: {
+    domains: ['res.cloudinary.com'],
+  },
 };
 
 module.exports = nextConfig;
